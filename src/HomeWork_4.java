@@ -216,7 +216,6 @@ public class HomeWork_4
             if(counter == SIZE)
             {
                 return true;
-                //break;
             }
             else {
                 counter = 0;
@@ -235,7 +234,6 @@ public class HomeWork_4
             if(counter == SIZE)
             {
                 return true;
-                //break;
             }
             else
                 {
@@ -245,7 +243,7 @@ public class HomeWork_4
         return false;
     }
 
-    public static boolean isMapFull()
+        public static boolean isMapFull()
     {
         for (int i = 0; i < SIZE; i++)
         {
